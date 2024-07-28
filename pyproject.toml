@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "flats-data"
+version = "0.1.0"
+description = ""
+authors = ["Rus"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+pyside6 = "^6.7.2"
+python-dateutil = "^2.9.0.post0"
+loguru = "^0.7.2"
+seleniumbase = "^4.28.5"
+undetected-chromedriver = "^3.5.5"
+babel = "^2.15.0"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
